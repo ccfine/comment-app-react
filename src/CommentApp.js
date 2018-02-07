@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import CommentInput from "./CommentInput.js";
 import CommentList from "./CommentList.js";
+import "./commentApp.css";
 
 export default class CommentApp extends Component {
-  render() {
+  handleSubmitComment (comment) {
+    console.log(comment);
+  }
+  render () {
     return (
-      <div>
-        <CommentInput />
+      <div className="contanier">
+        <CommentInput onSubmit={this.handleSubmitComment.bind(this)} />
         <CommentList />
       </div>
     );

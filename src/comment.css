@@ -1,0 +1,14 @@
+.comment {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+.comment >div:first-child {
+  display: flex;
+  align-items: flex-start;
+}
+.comment >div:first-child >span {
+  color: #63A7D4;
+}
+.comment >div:first-child >div {
+  word-wrap: break-word;
+}

@@ -1,0 +1,32 @@
+.input-area {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.input-area:after { 
+  display: block;
+  content: "";
+  width: 0;
+  clear: both;
+}
+.username {
+  width: 415.5px;
+  height: 30px;
+  margin-left: 44px;
+}
+.label-content {
+  position: relative;
+  top: -150px;
+}
+.content {
+  margin: 20px 0 0 30px;
+}
+.btn {
+  margin-top: 10px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #38A2D1; 
+  cursor: pointer;
+}
