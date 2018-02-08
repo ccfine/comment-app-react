@@ -14,3 +14,8 @@
   margin-left: 10px;
   word-wrap: break-word;
 }
+.comment >div:last-child {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
