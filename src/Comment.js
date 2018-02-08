@@ -5,7 +5,7 @@ export const Comment = (props) => {
   return (
     <li className="comment"> 
       <div>
-        <span>{props.comment.username}:</span>
+        <span>{props.comment.username} :</span>
         <div>{props.comment.content}</div>
       </div>
     </li>

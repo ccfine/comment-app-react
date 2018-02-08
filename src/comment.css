@@ -1,6 +1,7 @@
 .comment {
   padding: 10px 0;
   border-bottom: 1px solid #ddd;
+  list-style-type: none;
 }
 .comment >div:first-child {
   display: flex;
@@ -10,5 +11,6 @@
   color: #63A7D4;
 }
 .comment >div:first-child >div {
+  margin-left: 10px;
   word-wrap: break-word;
 }

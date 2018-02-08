@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./commentInput.css";
-const layer = window.layer;
 
 export default class CommentInput extends Component {
   constructor (props) {
